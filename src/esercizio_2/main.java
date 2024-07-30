@@ -15,7 +15,7 @@ public class main {
 
         List<Integer> numeri = new ArrayList<>();
         for (int i = 0; i < n; i++) {
-            int numeroCasuale = (int) Math.random();
+            int numeroCasuale = (int) (Math.random() * 101);
             numeri.add(numeroCasuale);
         }
         ;
